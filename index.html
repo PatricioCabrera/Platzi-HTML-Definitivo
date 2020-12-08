@@ -6,31 +6,26 @@
     <title>Las michifulcras</title>
 </head>
 <body>
-    <!-- <form action="">
-        <label for="hour">
-            <span>Hour</span>
-            <input type="time" id="hour" name="hour">
-        </label>
-        <label for="day">
-            <span>When do you knew Platzi?</span>
-            <input type="date" id="day">
-        </label>
-        <label for="week">
-            <span>Week</span>
-            <input type="week" id="week" name="week">
-        </label>
-        <label for="month">
-            <span>Month</span>
-            <input type="month" name="month" id="month">
-        </label>
-        <input type="submit" value="Send">
-    </form> -->
-    <form action="">
-        <label for="calendar">
-            <span>Calendar</span>
-            <input type="datetime-local" name="calendar" id="calendar">
-        </label>
-        <input type="submit" value="Send">
-    </form>
+    <main>
+        <form action="">
+            <label for="name">
+                <span>Who's your name?</span>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+            </label>
+            <label for="email">
+                <span>What's your e-mail?</span>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </label>
+            <label for="country">
+                <span>What's your country?</span>
+                <input type="text" name="country" id="country" autocomplete="country" required>
+            </label>
+            <label for="cp">
+                <span>What's your postal code?</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <input type="submit" value="Send">
+        </form>
+    </main>
 </body>
 </html>
