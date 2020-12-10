@@ -1,11 +1,39 @@
-p{
-    color: rgb(17, 204, 0);
+html, body{
+    padding: 0;
+    margin: 0;
 }
 
-.paragraph{
-    color: blue;
+.main-nav{
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    background-color: rgb(11, 201, 207);
 }
 
-#text{
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover{
+    color: tomato;
+}
+
+.main-nav__item a:active{
     color: red;
+}
+
+.main-nav__item a::after{
+    content: " |";
+}
+
+.main-nav__item a::before{
+    content: "| ";
 }
