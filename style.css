@@ -4,10 +4,9 @@
     margin: 0;
 }
 
-html{
+body{
     /* The paragraphs inherit from this, but not H1 since there is already a font-size specified for it */
-    font-size: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 62.5%;
 }
 
 main{
@@ -15,18 +14,19 @@ main{
     height: 500px;
     margin: 0;
     border: 5px solid gray;
-    padding: 20px 35px;
+    padding: 10px 15px;
 }
 
-h1{
-    color: purple;
-    font-family: serif;
-    margin-bottom: 10px;
-}
-
-.title{
-    font-size: 24px;
+h1.title{
+    font-size: 2.4rem;
     font-family: monospace;
+    margin-bottom: 0.6rem;
+}
+
+h2.title{
+    font-size: 2rem;
+    font-family: monospace;
+    margin-bottom: 0.4rem;
 }
 
 .main-nav{
@@ -40,7 +40,7 @@ h1{
 }
 
 .main-nav__item a{
-    font-size: 18px;
+    font-size: 1.2rem;
     text-transform: uppercase;
     color: white;
     text-decoration: none;
@@ -58,3 +58,6 @@ h1{
     content: "| ";
 }
 
+.text-container{
+    font-size: 1rem;
+}
